@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 12px;
+    font-family: Raleway, sans-serif;
+    background-color: #F4F1DE;
+    color: #656256;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0px;
+    max-width: 100%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300; 
+    
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 45px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.banner {
+    background-color: #230903;
+    background-image:
+        /* Bottom jagged */
+        linear-gradient(45deg, rgba(244,241,222,1) 0%, rgba(244,241,222,1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%),
+        linear-gradient(-45deg, rgba(244,241,222,1) 0%, rgba(244,241,222,1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background-position:
+        /* Bottom jagged */
+        bottom center, bottom center;
+    background-size:
+        /* Top + bottom jagged */
+        0.75rem 0.75rem, 0.75rem 0.75rem, 0.75rem 0.75rem, 0.75rem 0.75rem;
+    background-repeat: repeat-x;
+}
+
+.biz-card h1 {
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+
+.biz-card p {
+    margin: 0;
+}
+
+header{
+    background-color: #F4F1DE;
+    height: 150px;
+    padding-top: 18px;
+    width: 100%;
+    
+}
+
+#header h1{
+    font-size: 80px;
+    color: #F4F1DE;
+}
+
+#contact, #bio {
+    max-width: 33.33%;
+    padding-left: 10px;
+    /* margin-right: 20px; */
+    height: 50%;
+    
+}
+
+#contact{
+    margin-right: 20px;
+}
+
+#bio {
+    border-left: 1px solid #E07A5F;
+    margin-right: 0;
+    
+}
+
+#avatar {
+    max-width: 15%;
+   
+}
+
+#header {
+    text-align: center;
+}
+
+#key{
+    color: #E07A5F;
+}
+
+.biz-card__avatar {
+    width: 100px;
+}
